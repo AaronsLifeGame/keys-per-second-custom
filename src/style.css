@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background: radial-gradient(#1f1f1f, #090909);
+    font-family: Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+body, .row, .keyboard .row div, .mouse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard .row:nth-child(1) .key:nth-child(1) {
+    margin-left: 3.5em;
+}
+
+.keyboard .row div {
+    border: 2px #fff solid;
+    color: #fff;
+    width: 4em;
+    height: 4em;
+    margin: 0.2em;
+    transform: skew(-15deg);
+}
+
+.keyboard .row .space14 { width: 14em;}
+.keyboard .row .space16 { width: 16em;}
+
+.mouse { margin-left: 4em; }
+
+.mouse div {
+    border: 2px #fff solid;
+    width: 5em;
+    height: 10em;
+    margin: 0 0.3em;
+}
+
+.l-click {
+    border-radius: 3em 5px 5px 5px;
+}
+
+.r-click {
+    border-radius: 5px 3em 5px 5px;
+}
