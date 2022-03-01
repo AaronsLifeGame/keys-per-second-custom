@@ -1,0 +1,5 @@
+Key Code Values
+chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=2&url=https%3A%2F%2Fdocstore.mik.ua%2Forelly%2Fwebprog%2FDHTML_javascript%2F0596004672_jvdhtmlckbk-app-a.html
+chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=3&url=https%3A%2F%2Fdocstore.mik.ua%2Forelly%2Fwebprog%2FDHTML_javascript%2F0596004672_jvdhtmlckbk-app-b.html
+
+Help: AaronsLG#6461

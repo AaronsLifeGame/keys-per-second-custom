@@ -21,7 +21,7 @@ function trackKey(e) {
 }
 
 //Remove background when a key is released
-function releaseKey(e) {
+function releaseKey() {
     for(let i = 0; i < key.length; i++) {
         key[i].style.background = "transparent";
         key[i].style.color = "rgba(255, 255, 255, 1)";
@@ -34,13 +34,13 @@ function trackMouse(e) {
     switch (e.which) {
         case 1: lClick.style.background = "rgba(255, 255, 255, 1)";
         break;
-        case 2: rClick.style.background = "rgba(255, 255, 255, 1)";
+        case 3: rClick.style.background = "rgba(255, 255, 255, 1)";
         break;
     }
 }
 
 //Remove background when the mouse is released
-function releaseMouse(e) {
+function releaseMouse() {
     rClick.style.background = "transparent";
     lClick.style.background = "transparent";
 }
