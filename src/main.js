@@ -21,12 +21,16 @@ function trackKey(e) {
 }
 
 //Remove background when a key is released
-function releaseKey() {
+function releaseKey(e) {
     for(let i = 0; i < key.length; i++) {
+      if(e.keyCode == key[i].dataset.keyCode) {
+        console.log("what key was released?", e.key);
+        console.log(key[i].style.background);
         key[i].style.background = "transparent";
         key[i].style.color = "rgba(255, 255, 255, 1)";
+      }
     }
-}
+  }
 
 //Add background to mouse r/l click
 function trackMouse(e) {
