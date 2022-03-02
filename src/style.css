@@ -21,7 +21,7 @@ body, .row, .keyboard .row div, .mouse {
     width: 4em;
     height: 4em;
     margin: 0.2em;
-    transform: skew(0deg);
+    transform: skew(-15deg);
 }
 
 .keyboard .row .key0dot5h { height: 2em; }
@@ -35,6 +35,7 @@ body, .row, .keyboard .row div, .mouse {
 .keyboard .row .key2dot5w { width: 10em; }
 .keyboard .row .key3dot5w { width: 14em; }
 .keyboard .row .key4w { width: 16em; }
+.keyboard .row .key5w { width: 20em; }
 
 .mouse { margin-left: 4em; }
 
