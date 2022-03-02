@@ -1,0 +1,16 @@
+.mouse { margin-left: 4em; }
+
+.mouse div {
+    border: 2px #fff solid;
+    width: 5em;
+    height: 10em;
+    margin: 0 0.3em;
+}
+
+.l-click {
+    border-radius: 3em 5px 5px 5px;
+}
+
+.r-click {
+    border-radius: 5px 3em 5px 5px;
+}
