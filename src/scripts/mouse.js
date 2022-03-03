@@ -5,6 +5,7 @@ const rClick = document.querySelector(".r-click");
 //Assign event Listeners to the document
 document.addEventListener('mousedown', trackMouse);
 document.addEventListener('mouseup', releaseMouse);
+document.addEventListener('mousemove', showCoords);
 
 //Add background to mouse r/l click
 function trackMouse(e) {
@@ -32,3 +33,10 @@ function releaseMouse(e) {
         break;
     }
 }
+
+function showCoords(e) {
+    var x = e.clientX;
+    var y = e.clientY;
+    var coords = "X coords: " + x + ", Y coords: " + y;
+    document.getElementById("demo").innerHTML = coords;
+  }
