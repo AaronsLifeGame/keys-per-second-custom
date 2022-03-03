@@ -18,7 +18,17 @@ function trackMouse(e) {
 }
 
 //Remove background when the mouse is released
-function releaseMouse() {
-    rClick.style.background = "transparent";
-    lClick.style.background = "transparent";
+// function releaseMouse() {
+//     rClick.style.background = "transparent";
+//     lClick.style.background = "transparent";
+// }
+
+function releaseMouse(e) {
+    e = e || window.event;
+    switch (e.which) {
+        case 1: lClick.style.background = "transparent";
+        break;
+        case 3: rClick.style.background = "transparent";
+        break;
+    }
 }

@@ -3,6 +3,7 @@ body {
     background: radial-gradient(#1f1f1f, #090909);
     font-family: Helvetica, sans-serif;
     min-height: 100vh;
+    color: #fff;
 }
 
 .noselect {
@@ -33,4 +34,9 @@ body {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  textarea {
+    resize: none;
+    outline: none;
   }
