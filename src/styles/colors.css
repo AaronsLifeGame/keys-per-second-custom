@@ -1,0 +1,13 @@
+.body {
+    color: #fff
+}
+
+.colorwhite {
+    border: 2px #fff solid;
+    color: #fff;
+}
+
+.colorblack {
+    border: 2px #000 solid;
+    color: #000;
+}
