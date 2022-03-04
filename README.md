@@ -17,20 +17,18 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
+[![Contributors][contributors-shield]][https://github.com/aaronslifegame/keys-per-second-custom]
+[![Forks][forks-shield]][https://github.com/aaronslifegame/keys-per-second-custom]
+[![Stargazers][stars-shield]][https://github.com/aaronslifegame/keys-per-second-custom]
+[![Issues][issues-shield]][https://github.com/aaronslifegame/keys-per-second-custom]
+[![MIT License][license-shield]][https://github.com/aaronslifegame/keys-per-second-custom]
+[![LinkedIn][linkedin-shield]][https://github.com/aaronslifegame/keys-per-second-custom]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/aaronslifegame/keys-per-second-custom">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Keys Per Second Custom</h3>
@@ -117,17 +115,19 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+May need to install Java from Oracle
+
+<!-- This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
-  ```
+  ``` -->
 
 ### Installation
 
 1) Download zip file
 
-2) Open `k-p-s-c/src/main.js`
+2) Open `keys-per-second-custom/src/main.js`
 
 <!-- 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -214,7 +214,6 @@ Project Link: [https://github.com/AaronsLifeGame/keys-per-second-custom](https:/
 ## Acknowledgments
 
 * [QuickCodingTuts](https://www.youtube.com/watch?v=QMlT8Foy8UQ) : The Original Video and Coder.
-* []()
 * [Huffarino](https://github.com/Jamie-Huff) : For Assisting me on this Project.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
